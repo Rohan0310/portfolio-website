@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.sidebar nav{
+    padding: 45px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(132, 0, 255);
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 78vh;
+}
